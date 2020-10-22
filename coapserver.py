@@ -5,7 +5,7 @@ import sys
 from coapthon.server.coap import CoAP
 from exampleresources import BasicResource, Long, Separate, Storage, Big, voidResource, XMLResource, ETAGResource, \
     Child, \
-    MultipleEncodingResource, AdvancedResource, AdvancedResourceSeparate,
+    MultipleEncodingResource, AdvancedResource, AdvancedResourceSeparate
 
 __author__ = 'Giacomo Tanganelli'
 
