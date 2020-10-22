@@ -25,7 +25,6 @@ class CoAPServer(CoAP):
         self.add_resource('child/', Child())
         self.add_resource('advanced/', AdvancedResource())
         self.add_resource('advancedSeparate/', AdvancedResourceSeparate())
-        self.add_resource('dynamic/', DynamicResource())
 
         print "CoAP Server start on " + host + ":" + str(port)
         print self.root.dump()
